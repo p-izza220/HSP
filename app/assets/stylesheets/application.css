@@ -29,7 +29,7 @@
 
 #navdiv{
 	padding-top: 15px;
-	padding-left: 15px;
+	padding-left: 7px;
 	position: fixed;
 }
 
@@ -44,11 +44,12 @@
 	font-size: 55px;
 	padding-bottom: 25px;
 	padding-top: 10px;
+	padding-left: 120px;
 }
 
-/*.galleryWrapper{
-	width: 90%;
-}*/
+.galleryWrapper{
+	padding-left: 120px;
+}
 
 .gallerymain{
 	padding: 5px;
@@ -69,6 +70,7 @@
 /* Testimonies */
 #testimonies_wrapper{
 	max-width: 1400px;
+	padding-left: 100px;
 }
 
 #testimony_fieldset{
@@ -85,7 +87,7 @@
 	text-align: center;
 	font: times;
 	font-size: xx-large;
-	border-bottom:0;
+	border-bottom: 0;
 	width: auto !important;
 	text-align: center;
 	padding: 0.3em 1.2em;
@@ -142,6 +144,48 @@
 	padding:0 10px;
 }
 
+#zep_testimony{
+	margin: 0 auto;
+	vertical-align: center;
+
+}
+
+#zep_text{
+	margin: 0 auto;
+	display: block;
+	font-size: small;
+	text-align: left;
+	max-width: 700px;
+	padding:0 10px;
+}
+
+#zep_img{
+	margin: 0 auto;
+	height: 225px;
+	display: block;
+	padding: 0 10px;
+}
+
+#major_testimony{
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+#major_text{
+	margin: 0 auto;
+	display: block;
+	font-size: small;
+	text-align: left;
+	max-width: 700px;
+	padding:0 10px;
+}
+
+#major_img{
+	margin: 0 auto;
+	height: 225px;
+	display: block;
+	padding: 0 10px;
+}
 
 #addison_testimony{
 	margin: 0 auto;
@@ -150,7 +194,7 @@
 
 #addison_img1{
 	margin: 0 auto;
-	height: 200px;
+	height: 225px;
 	display: block;
 	padding: 0 10px;
 }
@@ -176,25 +220,8 @@
 	width: 85%;
 }
 
-#zep_testimony{
-	margin: 0 auto;
-	vertical-align: center;
-}
-
-#zep_text{
-	margin: 0 auto;
-	display: block;
-	font-size: small;
-	text-align: left;
-	max-width: 700px;
-	padding:0 10px;
-}
-
-#zep_img{
-	margin: 0 auto;
-	height: 225px;
-	display: block;
-	padding: 0 10px;
+#shrink3{
+	width: 70%;
 }
 
 
