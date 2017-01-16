@@ -84,6 +84,7 @@
 #client_testimonies{
 	text-align: center;
 	font: times;
+	font-size: xx-large;
 	border-bottom:0;
 	width: auto !important;
 	text-align: center;
@@ -94,6 +95,7 @@
 	width: 70%;
 	text-align: center;
 	margin-right: 10px;
+	padding-bottom: 2px;
 }
 
 #agnes_testimony{
@@ -163,15 +165,37 @@
 }
 
 .shrink{
-	width: 70%;
+	width: 75%;
 }
 
 .shrink1{
 	width: 80%;
 }
 
+#shrink2{
+	width: 85%;
+}
 
+#zep_testimony{
+	margin: 0 auto;
+	vertical-align: center;
+}
 
+#zep_text{
+	margin: 0 auto;
+	display: block;
+	font-size: small;
+	text-align: left;
+	max-width: 700px;
+	padding:0 10px;
+}
+
+#zep_img{
+	margin: 0 auto;
+	height: 225px;
+	display: block;
+	padding: 0 10px;
+}
 
 
 
