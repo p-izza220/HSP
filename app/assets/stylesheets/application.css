@@ -14,15 +14,23 @@
  *= require_self
  */
 
+*{ 
+	max-width: 1400px;
+
+}
+
+
 .navlinks{
-	text-align: right;
-	margin-right: 25px;
-	float: left;
-	padding-top: 10px;
 	text-decoration: none;
 	font: bold;
 	font-size: 16px;
-	padding: 0 50px;
+	margin: 0 auto;
+}
+
+#navdiv{
+	padding-top: 15px;
+	padding-left: 15px;
+	position: fixed;
 }
 
 #navdiv .navlinks:hover{
@@ -56,3 +64,117 @@
 	padding-bottom: 15px;
 	margin: 0 auto;
 }
+
+
+/* Testimonies */
+#testimonies_wrapper{
+	max-width: 1400px;
+}
+
+#testimony_fieldset{
+	border: 3.3px groove #ddd;
+	padding: 0 1.4em 1.4em 1.4em;
+	max-width: 900px;
+	padding: 5 10px;
+	margin: 0 auto;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+#client_testimonies{
+	text-align: center;
+	font: times;
+	border-bottom:0;
+	width: auto !important;
+	text-align: center;
+	padding: 0.3em 1.2em;
+}
+
+.hr{
+	width: 70%;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#agnes_testimony{
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+#agnes_img{
+	margin: 0 auto;
+	height: 225px;
+	display: block;
+	padding: 0 10px;
+}
+
+#agnes_text{
+	margin: 0 auto;
+	display: block;
+	font-size: small;
+	text-align: left;
+	max-width: 700px;
+	padding:0 10px; 
+
+
+}
+
+#watson_testimony{
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+#watson_img{
+	margin: 0 auto;
+	height: 225px;
+	display: block;
+	padding: 0 10px;
+}
+
+#watson_text{
+	margin: 0 auto;
+	display: block;
+	font-size: small;
+	text-align: left;
+	max-width: 700px;
+	padding:0 10px;
+}
+
+
+#addison_testimony{
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+#addison_img1{
+	margin: 0 auto;
+	height: 200px;
+	display: block;
+	padding: 0 10px;
+}
+
+#addison_text{
+	margin: 0 auto;
+	display: block;
+	font-size: small;
+	text-align: left;
+	max-width: 700px;
+	padding:0 10px; 
+}
+
+.shrink{
+	width: 70%;
+}
+
+.shrink1{
+	width: 80%;
+}
+
+
+
+
+
+
+
+
+

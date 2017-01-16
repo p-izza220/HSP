@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   get '/story'			=>  'welcome#story', as: 'our_story'
   get '/testimonies'	=> 'welcome#testimonies', as: 'testimonies'
   get '/press'			=> 'welcome#press', as: 'press'
-  get '/contact'		=> 'welcome#contact', as: 'contact'
   get '/gallery'		=> 'welcome#gallery', as: 'gallery'
 
 end
