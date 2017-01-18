@@ -20,17 +20,21 @@
 }
 
 
+
 .navlinks{
 	text-decoration: none;
 	font: bold;
 	font-size: 16px;
 	margin: 0 auto;
+	text-align: left;
 }
 
 #navdiv{
 	padding-top: 15px;
-	padding-left: 7px;
 	position: fixed;
+	z-index: 1;
+	text-align: right;
+	margin-left: -30px;
 }
 
 #navdiv .navlinks:hover{
@@ -39,13 +43,55 @@
 
 }
 
+#navbar-main{
+  position: fixed;
+  display: inline;
+  background-color: lightblue;
+  float: left;
+  width: 11%;
+  height: 530px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
 #mainName{
 	text-align: center;
 	font-size: 55px;
 	padding-bottom: 25px;
 	padding-top: 10px;
-	padding-left: 120px;
+	padding-left: 110px;
 }
+
+#header{
+  position: fixed;
+  z-index: 1;
+  display: inline;
+  background-color: lightblue;
+  height: 120px;
+  width: 98%;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+/* Homepage Styles */
+
+#index_wrapper{
+	max-width: 1400px;
+	padding-left: 85px;
+}
+
+#introductions{
+	max-width: 1000px;
+	padding-left: 125px;
+}
+
+
+/* Gallery Styles */
 
 .galleryWrapper{
 	padding-left: 120px;
@@ -70,7 +116,7 @@
 /* Testimonies */
 #testimonies_wrapper{
 	max-width: 1400px;
-	padding-left: 100px;
+	padding-left: 85px;
 }
 
 #testimony_fieldset{

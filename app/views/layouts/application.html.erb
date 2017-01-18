@@ -16,24 +16,34 @@
   </head>
 
   <body>
+   <div id="header">
     <h1 id="mainName"> Home Sweet Paws </h1>
-        <nav id="navbar-main">
-        	<div id="navdiv">
-        	  <ul class="navList">
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+      <nav id="navbar-main">
+        <div id="navdiv">
+        	 <ul class="navList">
         	  	<%= link_to "Home", home_path, class: 'navlinks' %>
                  <br> <br>
-        	  	<%= link_to "Our Story", our_story_path, class: 'navlinks' %>
+        	  	<%= link_to "Services & Rates", services_path, class: 'navlinks' %>
                  <br> <br>
         	  	<%= link_to "Client Testimonies", testimonies_path, class: 'navlinks' %>
                  <br> <br>
         	  	<%= link_to "Press", press_path, class: 'navlinks' %>
                 <br> <br>
         	  	<%= link_to "Gallery", gallery_path, class: 'navlinks' %>
-                <br>
-        	  </ul>
-        	</div>
-        </nav>
+              <br>
+        	 </ul>
+        </div>
+      </nav>
         <br>
-    <%= yield %>
+      </div>
+      <div id="pageContent">
+        <%= yield %>
+      </div>
   </body>
 </html>
