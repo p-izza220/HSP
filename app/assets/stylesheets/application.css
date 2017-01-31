@@ -16,12 +16,26 @@
 
 *{ 
 	max-width: 1400px;
+	font-family: Georgia serif;
 
 }
 
+/* layout */
 
+#header{
+  position: fixed;
+  z-index: 1;
+  display: block;
+  background-color: lightblue;
+  height: 115px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  box-shadow: 7px 3px 3px black;
+}
 
 .navlinks{
+	font-family: Georgia, serif;
 	text-decoration: none;
 	font: bold;
 	font-size: 16px;
@@ -38,45 +52,34 @@
 }
 
 #navdiv .navlinks:hover{
-	background-color: lightgrey;
-/*	padding-bottom: 3px;*/
-
+	text-decoration: underline;
 }
 
 #navbar-main{
-  position: fixed;
-  display: inline;
-  background-color: lightblue;
-  float: left;
-  width: 11%;
-  height: 530px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-left: 25px;
-  margin-right: 10px;
-  border-radius: 10px;
+	z-index: 1;
+  	position: fixed;
+  	display: inline;
+  	background-color: lightblue;
+  	float: left;
+  	width: 12%;
+  	min-width: 151px;
+  	height: 450px;
+	margin-top: 13px;
+ 	margin-bottom: 10px;
+ 	margin-right: 10px;
+ 	border-radius: 3px;
+ 	box-shadow: 6px 3px 3px black;
 }
 
 #mainName{
 	text-align: center;
-	font-size: 55px;
+	font-size: 75px;
+	font-family: Georgia, serif;
 	padding-bottom: 25px;
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-left: 110px;
 }
 
-#header{
-  position: fixed;
-  z-index: 1;
-  display: inline;
-  background-color: lightblue;
-  height: 120px;
-  width: 98%;
-  margin-top: -10px;
-  margin-bottom: 10px;
-  margin-left: 25px;
-  border-radius: 10px;
-}
 
 /* Homepage Styles */
 
@@ -108,9 +111,31 @@
 
 
 .galleryImg{
+	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 7px;
 	margin: 0 auto;
 }
+
+/* .content{
+	height: 125%;
+}
+
+
+
+.transition {
+    -webkit-transform: scale(1.6); 
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+}
+.galleryImg {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+}*/
+
 
 
 /* Testimonies */
@@ -127,23 +152,29 @@
 	margin: 0 auto;
     -webkit-box-shadow:  0px 0px 0px 0px #000;
     box-shadow:  0px 0px 0px 0px #000;
+    text-align: left;
 }
 
-#client_testimonies{
+#client_testimonies {
+	margin-top: 15px;
 	text-align: center;
-	font: times;
+	font-family: Georgia serif;
 	font-size: xx-large;
 	border-bottom: 0;
-	width: auto !important;
-	text-align: center;
+	max-width: 275px;
+	/*width: auto !important;*/
 	padding: 0.3em 1.2em;
 }
 
 .hr{
 	width: 70%;
 	text-align: center;
-	margin-right: 10px;
+	/*margin-right: 10px;*/
 	padding-bottom: 2px;
+}
+
+.hrx{
+	margin-right: 20px !important;
 }
 
 #agnes_testimony{
@@ -161,7 +192,7 @@
 #agnes_text{
 	margin: 0 auto;
 	display: block;
-	font-size: small;
+	font-size: 15px;
 	text-align: left;
 	max-width: 700px;
 	padding:0 10px; 
@@ -184,7 +215,7 @@
 #watson_text{
 	margin: 0 auto;
 	display: block;
-	font-size: small;
+	font-size: 15px;
 	text-align: left;
 	max-width: 700px;
 	padding:0 10px;
@@ -199,7 +230,7 @@
 #zep_text{
 	margin: 0 auto;
 	display: block;
-	font-size: small;
+	font-size: 15px;
 	text-align: left;
 	max-width: 700px;
 	padding:0 10px;
@@ -220,7 +251,7 @@
 #major_text{
 	margin: 0 auto;
 	display: block;
-	font-size: small;
+	font-size: 15px;
 	text-align: left;
 	max-width: 700px;
 	padding:0 10px;
@@ -248,7 +279,7 @@
 #addison_text{
 	margin: 0 auto;
 	display: block;
-	font-size: small;
+	font-size: 15px;
 	text-align: left;
 	max-width: 700px;
 	padding:0 10px; 
