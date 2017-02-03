@@ -107,35 +107,40 @@
 }
 
 
-#pawprint{
+.pawprintMain{
 	height: 80px;
 	text-align: center;
 	padding-bottom: 15px;
-
 }
 
 /* Homepage Styles */
 
 #index_wrapper{
 	max-width: 1100px;
-	padding-left: 85px;
+	margin: 0 auto;
 }
 
 #introductions{
-	max-width: 1000px;
-	padding-left: 125px;
+	max-width: 900px;
+	margin: 0 auto;
+
 }
 
 #storyTitle{
 	padding-top: 15px;
+	text-align: center;
+	font-size: 36px;
+}
+
+#homepage_story{
+	text-align: center;
+	font-size: 19px;
+	padding: 5px 10px;
 }
 
 
 /* Gallery Styles */
 
-.galleryWrapper{
-
-}
 
 .gallerymain{
 	padding: 25px;
@@ -340,13 +345,6 @@
 	margin: 0 auto;
 
 }
-
-.pawprint{
-	height: 35px;
-	text-align: center;
-	padding-bottom: 5px;
-}
-
 
 
 
