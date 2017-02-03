@@ -16,32 +16,36 @@
   </head>
 
   <body>
-   <div id="header">
-    <h1 id="mainName"> Home Sweet Paws <img src="assets/pawpring.png" id="pawprint"> </h1> 
+    <div id="contentWrapper">
+     <div id="header">
+      <h1 id="mainName"> Home Sweet Paws <img src="assets/pawpring.png" id="pawprint"> </h1> 
 
-   </div>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-      <nav id="navbar-main">
-        <div id="navdiv">
-        	 <ul class="navList">
-        	  	<%= link_to "Home", home_path, class: 'navlinks' %>
-                 <br> <br>
-        	  	<%= link_to "Services & Rates", services_path, class: 'navlinks' %>
-                 <br> <br>
-        	  	<%= link_to "Client Testimonies", testimonies_path, class: 'navlinks' %>
-                 <br> <br>
-        	  	<%= link_to "Press", press_path, class: 'navlinks' %>
-                <br> <br>
-        	  	<%= link_to "Gallery", gallery_path, class: 'navlinks' %>
-              <br>
-        	 </ul>
+     </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+        <nav id="navbar-main">
+          <div id="navdiv">
+          	 <ul class="navList">
+          	  	<%= link_to "Home", home_path, class: 'navlinks' %>
+                   <br> <br>
+          	  	<%= link_to "Services & Rates", services_path, class: 'navlinks' %>
+                   <br> <br>
+          	  	<%= link_to "Client Testimonies", testimonies_path, class: 'navlinks' %>
+                   <br> <br>
+          	  	<%= link_to "Press", press_path, class: 'navlinks' %>
+                  <br> <br>
+          	  	<%= link_to "Gallery", gallery_path, class: 'navlinks' %>
+                <br>
+          	 </ul>
+          </div>
+        </nav>
+          <br>
+        <div id="oppNav">
+          
         </div>
-      </nav>
-        <br>
       </div>
       <div id="pageContent">
         <%= yield %>
