@@ -69,10 +69,10 @@
   	width: 12%;
   	min-width: 151px;
   	height: 950px;
-	margin-top: 33px;
+	margin-top: 34px;
  	margin-bottom: 10px;
  	margin-right: 10px;
- 	border-radius: 3px;
+ 	border-radius: 2px;
  	box-shadow: 3px 3px 3px black;
 }
 
@@ -84,17 +84,14 @@
   	left: 25px;
   	background-color: lightblue;
   	float: right !important;
-  	width: 12%;
-  	min-width: 151px;
+  	min-width: 173px;
   	height: 950px;
 	margin-top: 118px;
  	margin-bottom: 10px;
  	margin-left: 1230px;
  	margin-right: 0px;
- 	border-radius: 3px;
- 	border-top: none;
+ 	border-radius: 2px;
  	box-shadow: -3px 3px 3px black;
-/* 	box-shadow: 3px 3px 6px black;*/
 }
 
 #mainName{
@@ -345,6 +342,92 @@
 	margin: 0 auto;
 
 }
+
+
+/* Mobile Friendly */
+
+@media(max-width: 1400px){
+	.gallerymain{
+		max-width: 900px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	/*#header{
+  	position: fixed;
+  	z-index: 1;
+  	display: inline;
+  	background-color: lightblue;
+  	height: 135px;
+  	width: 1427px;
+  	margin-bottom: 10px;
+  	border-radius: 3px;
+  	box-shadow: -1px 3px 3px black;
+}
+
+.navlinks{
+	font-family: Georgia, serif;
+	color: black;
+	text-decoration: none;
+	font: bold;
+	font-size: 17px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#navdiv{
+	padding-top: 25px;
+	position: fixed;
+	z-index: 1;
+	text-align: right;
+	margin-left: -30px;
+}
+
+#navdiv .navlinks:hover{
+	text-decoration: underline;
+}
+
+#navbar-main{
+	z-index: 1;
+  	position: fixed;
+  	display: inline;
+  	background-color: lightblue;
+  	float: left;
+  	width: 12%;
+  	min-width: 151px;
+  	height: 950px;
+	margin-top: 33px;
+ 	margin-bottom: 10px;
+ 	margin-right: 10px;
+ 	border-radius: 3px;
+ 	box-shadow: 3px 3px 3px black;
+}
+
+#oppNav{
+	z-index: 1;
+  	display: block;
+  	position: fixed;
+  	top: 15px;
+  	left: 25px;
+  	background-color: lightblue;
+  	float: right !important;
+  	width: 12%;
+  	min-width: 151px;
+  	height: 950px;
+	margin-top: 118px;
+ 	margin-bottom: 10px;
+ 	margin-left: 1230px;
+ 	margin-right: 0px;
+ 	border-radius: 3px;
+ 	border-top: none;
+ 	box-shadow: -3px 3px 3px black;
+/* 	box-shadow: 3px 3px 6px black;*/
+}*/
+
+}
+
+
+
 
 
 
