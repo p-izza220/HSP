@@ -1,3 +1,3 @@
 # README
 
-This is a website for a Manhattan-based Dog-Walking company. 
+This is a website for the Manhattan-based Dog-Walking company, Home Sweet Paws. 
