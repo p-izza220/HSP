@@ -15,7 +15,7 @@
  */
 
 *{ 
-	max-width: 1500px;
+	max-width: 1400px;
 	font-family: Georgia serif;
 
 }
@@ -433,10 +433,10 @@
 }
 
 #weekdayRates{
-	width: 400px;
-	height:260px;
+	width: 350px;
+	height: 250px;
 	background-color: lightblue;
-	margin-left: 35px !important;
+	margin-left: 85px !important;
 	margin-top: 22px !important;
 	margin-bottom: 10px;
     -moz-box-shadow: inset 0 0 5px #888;
@@ -446,11 +446,11 @@
 }
 
 #petSitting{
-	width: 400px;
-	height:260px;
+	width: 350px;
+	height: 250px;
 	background-color: lightblue;
 	margin-left: 545px !important;
-	margin-top: -271px !important;
+	margin-top: -260px !important;
 	-moz-box-shadow: inset 0 0 5px #888;
     -webkit-box-shadow: inset 0 0 5px #888;
 	box-shadow: inner 0 0 5px #888;
@@ -458,10 +458,10 @@
 }
 
 #weekendRates{
-	width: 400px;
-	height:260px;
+	width: 350px;
+	height: 250px;
 	background-color: lightblue;
-	margin-left: 35px !important;
+	margin-left: 85px !important;
 	margin-top: 35px !important;
 	-moz-box-shadow: inset 0 0 5px #888;
     -webkit-box-shadow: inset 0 0 5px #888;
@@ -470,11 +470,11 @@
 }
 
 #obedienceRates{
-	width: 400px;
-	height:260px;
+	width: 350px;
+	height: 250px;
 	background-color: lightblue;
 	margin-left: 545px !important;
-	margin-top: -260px !important;
+	margin-top: -250px !important;
 	-moz-box-shadow: inset 0 0 5px #888;
     -webkit-box-shadow: inset 0 0 5px #888;
 	box-shadow: inner 0 0 5px #888;
@@ -492,6 +492,18 @@
 	font-size: 17px;
 	text-align: center;
 	font-style: italic;
+}
+
+/* Press/Contact Styles */
+#contactTitle{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 27px;
+	font-family: "Dancing Script";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 275;
+	line-height: 1;
 }
 
 /* Mobile Friendly */
